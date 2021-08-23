@@ -1,0 +1,126 @@
+*{
+  font-family: "Red Hat Display";
+  padding: 0;
+}
+
+body{
+
+  width: 1440px;
+  background-color: hsl(229, 100%, 97%);
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+}
+
+h1{
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  text-align: center;
+}
+
+h4{
+  font-weight: 700;
+}
+
+p{
+  text-align: center;
+  margin-left: 15%;
+  font-size: 16px;
+  margin-right: 15%;
+}
+
+.body__img{
+  border-radius: 15px 15px 0px 0px;
+}
+
+.card {
+  margin: auto;
+  margin-top: 80px;
+  width: 450px;
+  height: 600px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.card2 {
+  display: flex;
+  margin: auto;
+  margin-top: 5%;
+  height: 75px;
+  width: 350px;
+  border-radius: 15px;
+  background-color:hsl(225, 100%, 98%);
+}
+
+.music{ 
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgmusic {
+  height: 75%;
+
+}
+
+.card2__div{
+  flex-grow: 2;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.card2__div h3{
+  margin: 0%;
+}
+
+.card2__div h4{
+  font-weight: 500;
+  margin: 0%;
+  color: hsl(224, 23%, 55%)
+}
+
+.card2__change{
+  justify-content: center;
+  align-items: center;
+  margin-right: 3%;
+  flex-grow: 1;
+  display: flex;
+}
+
+.body__cta{
+  margin-top: 5%;
+  display: flex;
+  align-content: center;
+  align-content: center;
+  justify-content: center;
+}
+.cta__button{
+  height: 40px;
+  width: 300px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  border-style: none;
+  display: flex;
+  box-shadow: 0px 10px 30px 2px hsla(245, 100%, 77%, 0.411);
+}
+
+.cta__button:hover {
+  opacity: 90%;
+  cursor: pointer;
+
+}
+
+.cta__h5{
+  margin: 4%;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  
+}
+
+body a{
+  text-decoration: none;
+}
